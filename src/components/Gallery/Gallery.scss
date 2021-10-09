@@ -7,6 +7,24 @@
     margin-bottom: 40px;
   }
 
+  &__container {
+    overflow: hidden;
+    height: 0;
+    transition: height 1s;
+
+    &-hidden {
+      margin-top: -1px;
+      height: 694px;
+      transition: height 1s;
+
+      @media screen and (max-width: 900px) {
+        & {
+          grid-template-rows: 444px;
+        }
+      }
+    }
+  }
+
   &__btn {
     margin-top: 40px;
     box-sizing: border-box;
@@ -37,5 +55,10 @@
         margin-top: 0;
       }
     }
+  }
+
+  &__btn-arrow {
+    font-size: 60px;
+    margin-top: -5px;
   }
 }

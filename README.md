@@ -1,9 +1,3 @@
-Single-page application: "Miami"
-[DEMO LINK](https://andriifront.github.io/react_miami/;
-[CODE](https://andriifront.github.io/react_miami/);
-Used technologies:  React, Css, Sass, Git;
-
-
 # Miami Condo kings
 TAP **[PREVIEW LINK](https://andriifront.github.io/react_miami/)** TO SEE DEMO
 
