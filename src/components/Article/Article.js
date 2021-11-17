@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Article.scss';
 
-export const Article = ({ data, showHide }) => {
+export const Article = ({ data, showHide, setUserId }) => {
   const {
+    id,
     video,
     text,
     avatar,
@@ -19,7 +20,10 @@ export const Article = ({ data, showHide }) => {
       {avatar && (
         <button
           type="button"
-          onClick={showHide}
+          onClick={() => {
+            showHide();
+            setUserId(id);
+          }}
         >
           <img
             src={avatar}
@@ -34,7 +38,10 @@ export const Article = ({ data, showHide }) => {
       {name && (
         <button
           type="button"
-          onClick={showHide}
+          onClick={() => {
+            showHide();
+            setUserId(id);
+          }}
         >
           <h3 className="article__heading">
             {name}
@@ -48,9 +55,9 @@ export const Article = ({ data, showHide }) => {
         </p>
       )}
 
-      {hashtags && hashtags.map(({ id, name: hName }) => (
+      {hashtags && hashtags.map(({ id: hId, name: hName }) => (
         <a
-          key={id}
+          key={hId}
           href="https://www.google.com"
           className="article__hashtag"
         >
@@ -75,7 +82,6 @@ export const Article = ({ data, showHide }) => {
               default
               kind="captions"
               srcLang="en"
-              src="/media/examples/friday.vtt"
             />
           </video>
         </div>
@@ -111,6 +117,7 @@ export const Article = ({ data, showHide }) => {
 
 Article.propTypes = {
   data: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     video: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
@@ -120,4 +127,5 @@ Article.propTypes = {
     hearts: PropTypes.number.isRequired,
   }).isRequired,
   showHide: PropTypes.func.isRequired,
+  setUserId: PropTypes.func.isRequired,
 };

@@ -1,5 +1,5 @@
 # TicTuc:)
-TAP **[PREVIEW LINK](https://andriifront.github.io/___________)** TO SEE DEMO
+TAP **[PREVIEW LINK](https://andriifront.github.io/tictuk/)** TO SEE DEMO
 
 ## Technologies
 
@@ -11,10 +11,7 @@ TAP **[PREVIEW LINK](https://andriifront.github.io/___________)** TO SEE DEMO
  - npm
  - git
 
-
-
-
-Demonstration: [link](https://andriifront.github.io/____________/)
+Demonstration: [link](https://andriifront.github.io/tictuk/)
 
 ## My Contacts
 Andrii Badekha

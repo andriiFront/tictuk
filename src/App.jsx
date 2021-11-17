@@ -8,6 +8,7 @@ import './App.scss';
 function App() {
   const [trendingFeed, setTrendingFeed] = useState([]);
   const [toggle, setToggle] = useState(false);
+  const [userId, setUserId] = useState('');
 
   useEffect(() => {
     getTrendingFeed()
@@ -17,6 +18,7 @@ function App() {
   }, []);
 
   const showHide = () => setToggle(!toggle);
+  const setId = id => setUserId(id);
 
   return (
     <div className="App">
@@ -30,6 +32,7 @@ function App() {
             key={item.id}
             data={item}
             showHide={showHide}
+            setUserId={setId}
           />
         ))}
       </div>
@@ -39,7 +42,10 @@ function App() {
         { 'App__user-hidden': !toggle },
       )}
       >
-        <User showHide={showHide} />
+        <User
+          showHide={showHide}
+          userId={userId}
+        />
       </div>
     </div>
   );

@@ -14,9 +14,10 @@ import './User.scss';
 //     });
 // }, []);
 
-export const User = ({ showHide }) => (
+export const User = ({ showHide, userId }) => (
   <div className="user">
     Hello We are!!!
+    {userId}
 
     <button
       type="button"
@@ -30,4 +31,5 @@ export const User = ({ showHide }) => (
 
 User.propTypes = {
   showHide: PropTypes.func.isRequired,
+  userId: PropTypes.string.isRequired,
 };
