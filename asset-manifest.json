@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tictuk/static/css/main.1bead819.chunk.css",
+    "main.js": "/tictuk/static/js/main.85e7d8a9.chunk.js",
+    "main.js.map": "/tictuk/static/js/main.85e7d8a9.chunk.js.map",
+    "runtime-main.js": "/tictuk/static/js/runtime-main.65deb403.js",
+    "runtime-main.js.map": "/tictuk/static/js/runtime-main.65deb403.js.map",
+    "static/js/2.6ad80fcc.chunk.js": "/tictuk/static/js/2.6ad80fcc.chunk.js",
+    "static/js/2.6ad80fcc.chunk.js.map": "/tictuk/static/js/2.6ad80fcc.chunk.js.map",
+    "index.html": "/tictuk/index.html",
+    "precache-manifest.c4454116f7d40e69be8e7a2ce31850d2.js": "/tictuk/precache-manifest.c4454116f7d40e69be8e7a2ce31850d2.js",
+    "service-worker.js": "/tictuk/service-worker.js",
+    "static/css/main.1bead819.chunk.css.map": "/tictuk/static/css/main.1bead819.chunk.css.map",
+    "static/js/2.6ad80fcc.chunk.js.LICENSE.txt": "/tictuk/static/js/2.6ad80fcc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65deb403.js",
+    "static/js/2.6ad80fcc.chunk.js",
+    "static/css/main.1bead819.chunk.css",
+    "static/js/main.85e7d8a9.chunk.js"
+  ]
+}
