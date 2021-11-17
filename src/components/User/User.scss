@@ -1,0 +1,23 @@
+@import "../../styles/utils";
+
+.user {
+  color: brown;
+  font-size: 30px;
+
+  &__btn {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+      background-color: brown;
+      border-color: #fff;
+    }
+  }
+}

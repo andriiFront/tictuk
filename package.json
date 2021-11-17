@@ -1,11 +1,12 @@
 {
-  "name": "react_miami",
-  "homepage": "https://andriifront.github.io/react_miami/",
+  "name": "tic-tuk",
+  "homepage": "",
   "version": "0.1.0",
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
+    "classnames": "^2.3.1",
     "emailjs-com": "^2.6.4",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",

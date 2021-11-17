@@ -1,0 +1,12 @@
+@import "./styles/utils";
+
+.App {
+
+  &__articles-hidden {
+    display: none;
+  }
+
+  &__user-hidden {
+    display: none;
+  }
+}
